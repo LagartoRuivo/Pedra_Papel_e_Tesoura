@@ -30,7 +30,7 @@ jogte.addEventListener("click",clickte)
             placar_c.innerHTML=p_c
         }
 
-        if(p_p == 1 || p_c == 1){
+        if(p_p == 5 || p_c == 5){
             let msg_fin = document.getElementById("final-v-d");
 
             if(p_p > p_c){
