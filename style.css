@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 #placar{
@@ -14,28 +15,33 @@
     box-sizing: border-box;
     align-items: center;
     text-align: center;
+    background-color: aliceblue;
 }
 
 #titulo{
     height: auto;
-    width: auto;
-    margin: auto 35% ;
+    width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    top: 25%;
     left: 25%;
-    background-color:blue;
+    font-size: 35px;
+    font-style: oblique;
+    background-color: aliceblue;
 }
 
 #placar-player{
     height: 100%;
     width: 50%;
+    font-size: 15px;
+    border: 1px solid black;
 }
 
 #placar-computer{
     height: 100%;
     width: 50%;
+    font-size: 15px;
+    border: 1px solid black;
 }
 
 #jogadas{
@@ -57,6 +63,9 @@
     background-color: white;
     align-content: space-between;
     justify-content: space-between;
+    border: 1px solid black;
+    background-color: white;
+
 }
 #jogadas-realizadas{
     width: 100%;
@@ -68,6 +77,8 @@
     background-color: white;
     align-content: space-between;
     justify-content: space-between;
+    border: 1px solid black;
+
 }
 #jog-papel{
     width: 23%;
@@ -78,6 +89,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    
 }
 
 #jog-pedra{
@@ -129,6 +141,7 @@
 #final-v-d{
     width: 100%;
     height: 10vh;
+    
 }
 
 #vd{
@@ -152,4 +165,6 @@
     width: auto;
     border: 1px solid black;
     text-align: center;
+    background-color: aliceblue;
 }
+    
