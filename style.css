@@ -1,0 +1,155 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+
+#game{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#placar{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+#titulo{
+    height: auto;
+    width: auto;
+    margin: auto 35% ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 25%;
+    left: 25%;
+
+}
+
+#placar-player{
+    height: 100%;
+    width: 50%;
+}
+
+#placar-computer{
+    height: 100%;
+    width: 50%;
+}
+
+#jogadas{
+    height: 80vh;
+    width: 100%;
+    align-content: space-between;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+#jogadas-possiveis{
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    align-content: space-between;
+    justify-content: space-between;
+}
+#jogadas-realizadas{
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    box-sizing: border-box;
+    background-color: white;
+    align-content: space-between;
+    justify-content: space-between;
+}
+#jog-papel{
+    width: 23%;
+    height: 80%;
+    background-image: url("./imgs/papel.png");
+    overflow :hidden, no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#jog-pedra{
+    width: 23%;
+    height: 80%;
+    background-image: url("./imgs/pedra.png");
+    overflow :hidden, no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#jog-tesoura{
+    width: 23%;
+    height: 80%;
+    background-image: url("./imgs/tesoura.png");
+    overflow :hidden, no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jog-player{
+    width: 40%;
+    height: 80%;
+    overflow :hidden, no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#jog-computer{
+    width: 40%;
+    height: 80%;
+    overflow :hidden, no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#mensagem-v-d{
+    width: 100%;
+    height: 10vh;
+}
+
+#final-v-d{
+    width: 100%;
+    height: 10vh;
+}
+
+#vd{
+    height: auto;
+    width: auto;
+    margin: auto 35% ;
+    top: 25%;
+    left: 25%;
+
+}
+
+#fvd{
+    height: auto;
+    width: 100%;
+
+
+}
+
+#footer{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+}
